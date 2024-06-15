@@ -6,11 +6,11 @@
     "strictNullChecks": true,
     "paths": {
       "@content/*": ["content/*"],
-      "@components/*": ["components/*"],
+      "@components": ["components/*"],
       "@common": ["common/index"],
       "@data/*": ["data/*"],
-      "@layouts/*": ["layouts/*"],
-      "@pages/*": ["pages/*"],
+      "@layouts": ["layouts/*"],
+      "@pages": ["pages/*"],
       "@styles/*": ["styles/*"]
     },
     "plugins": [
