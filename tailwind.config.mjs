@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import defaultTheme from 'tailwindcss/defaultTheme';
+
 export default {
   darkMode: 'class',
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
@@ -39,6 +41,10 @@ export default {
           900: '#064574',
           950: '#042B4D',
         },
+      },
+      fontFamily: {
+        sans: ['exo2', ...defaultTheme.fontFamily.sans],
+        russo: ['Russo One', ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
         'fluid-sm': 'clamp(1rem, 1.5vw, 1.5rem)',
