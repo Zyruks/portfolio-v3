@@ -5,6 +5,7 @@
 !/.github
 !/public
 !/src
+!/.vscode
 
 # Configuration files
 !.browserslistrc

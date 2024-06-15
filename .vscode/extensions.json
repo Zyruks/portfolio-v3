@@ -6,5 +6,7 @@
     "zignd.html-css-class-completion",
     "vivaxy.vscode-conventional-commits",
     "bradlc.vscode-tailwindcss",
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
   ]
 }
