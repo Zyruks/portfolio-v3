@@ -1,12 +1,15 @@
+import tailwind from '@astrojs/tailwind';
+// Update to @astrojs/vercel/serverless if need SSR
+import vercel from '@astrojs/vercel/static';
 import { defineConfig } from 'astro/config';
-import tailwind from "@astrojs/tailwind";
 
-// https://astro.build/config
 export default defineConfig({
+  output: 'server',
+  adapter: vercel(),
   vite: {
     css: {
-      transformer: 'lightningcss'
-    }
+      transformer: 'lightningcss',
+    },
   },
-  integrations: [tailwind()]
+  integrations: [tailwind()],
 });
